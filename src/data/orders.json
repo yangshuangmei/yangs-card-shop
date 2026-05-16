@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ORD-DWMJYXDW5",
+    "paypalOrderId": "2A587994SG1449023",
+    "date": "2026/5/16 下午1:53:40",
+    "amount": 10,
+    "items": [
+      {
+        "id": "1",
+        "name": "Standard Live Break",
+        "series": "Vivid Voltage",
+        "price": 10,
+        "image": "/uploads/1778900411731-3f30bf2f14064067386a84dd692e4ad.jpg",
+        "type": "Standard",
+        "category": "Standard",
+        "rarity": "Pack",
+        "stock": 100,
+        "description": "Standard pack break during live stream.",
+        "variants": [
+          {
+            "name": "1 Pack",
+            "price": 10
+          },
+          {
+            "name": "3 Packs",
+            "price": 30
+          },
+          {
+            "name": "10 Packs",
+            "price": 100
+          }
+        ],
+        "detailImages": [
+          "/uploads/1778900428368-朱兰.jpg"
+        ],
+        "quantity": 1
+      }
+    ],
+    "status": "Shipped",
+    "shippingFee": 0,
+    "customer": {
+      "name": "21321",
+      "email": "42414",
+      "address": "412421"
+    },
+    "trackingNumber": "12312312414"
+  },
+  {
+    "id": "ORD-APPW5MYVB",
+    "paypalOrderId": "6J427665AJ871030N",
+    "date": "2026/5/16 13:26:25",
+    "amount": 10,
+    "items": [
+      {
+        "id": "1",
+        "name": "Standard Live Break",
+        "price": 10,
+        "image": "/uploads/1778900411731-3f30bf2f14064067386a84dd692e4ad.jpg",
+        "variantName": "1 Pack",
+        "quantity": 1
+      }
+    ],
+    "status": "Shipped",
+    "shippingFee": 0,
+    "customer": {
+      "name": "12",
+      "email": "124314124",
+      "address": "124124124"
+    },
+    "trackingNumber": "12345678"
+  }
+]

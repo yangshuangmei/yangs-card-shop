@@ -1,0 +1,12 @@
+{
+  "freeShippingThreshold": 100,
+  "shippingFee": 20,
+  "adminPassword": "admin",
+  "heroImage": "https://images.pokemontcg.io/swsh7/215_hires.png",
+  "heroTitle": "Your Premium TCG Destination",
+  "heroSubtitle": "Source the rarest cards and sealed products. Join our community for weekly drops and live breaks.",
+  "contactWhatsApp": "+1234567890",
+  "contactEmail": "support@yangscardshop.com",
+  "contactTikTok": "https://www.tiktok.com/@youraccount",
+  "contactInstagram": "https://www.instagram.com/youraccount"
+}
