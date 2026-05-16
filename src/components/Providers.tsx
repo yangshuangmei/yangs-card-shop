@@ -3,10 +3,13 @@
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
 export function Providers({ children }: { children: React.ReactNode }) {
+  // 强制使用你提供的正式 Live Client ID
+  const paypalClientId = "Af3GXU_hJrkgF5Tt9lb8MhhyTpztjMBv8nWh2UejfJmy9OmjLnXBRmX5jhsAEYKOM_KZwONjrwGkVsWX";
+
   return (
     <PayPalScriptProvider 
       options={{ 
-        clientId: "AbytI2R5SHzvX1CdK_g3REr8dlh0R4euM7ZB9D8p0W8iAfzAnPCX9CEZ8jp_m9JmvjYRvNQVDomVCUU6",
+        clientId: paypalClientId,
         currency: "USD",
         intent: "capture"
       }}
