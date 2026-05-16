@@ -1,0 +1,657 @@
+
+> pokemon-card-shop@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.4
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 1973ms (567 modules)
+ ⨯ src\app\page.tsx (104:16) @ CATEGORIES
+ ⨯ ReferenceError: CATEGORIES is not defined
+    at HomePage (./src/app/page.tsx:215:47)
+digest: "1600629623"
+[0m [90m 102 |[39m             [33m<[39m[33m/[39m[33mh3[39m[33m>[39m[0m
+[0m [90m 103 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex items-center gap-4 lg:gap-8 overflow-x-auto pb-4 scrollbar-hide"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 104 |[39m               {[33mCATEGORIES[39m[33m.[39mmap((cat) [33m=>[39m ([0m
+[0m [90m     |[39m                [31m[1m^[22m[39m[0m
+[0m [90m 105 |[39m                 [33m<[39m[33mbutton[39m[0m
+[0m [90m 106 |[39m                   key[33m=[39m{cat[33m.[39mid}[0m
+[0m [90m 107 |[39m                   onClick[33m=[39m{() [33m=>[39m setSelectedCategory(cat[33m.[39mid)}[0m
+ GET / 500 in 2226ms
+ ✓ Compiled in 253ms (290 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 270ms (567 modules)
+ GET / 200 in 138ms
+ ✓ Compiled /api/products in 316ms (351 modules)
+ GET /api/products?t=1778916226689 200 in 1033ms
+ GET /api/products?t=1778916226691 200 in 1040ms
+ ✓ Compiled /product/[id] in 380ms (649 modules)
+ GET /api/products 200 in 435ms
+ GET /api/products 200 in 183ms
+ GET /api/products?t=1778916403321 200 in 581ms
+ GET /api/products?t=1778916403321 200 in 187ms
+ ✓ Compiled in 278ms (663 modules)
+ ✓ Compiled in 172ms (663 modules)
+ ✓ Compiled in 130ms (300 modules)
+ ✓ Compiled in 189ms (300 modules)
+ ✓ Compiled in 144ms (300 modules)
+ ✓ Compiled in 316ms (661 modules)
+ ✓ Compiled in 240ms (587 modules)
+ ✓ Compiled /api/products in 90ms (362 modules)
+ GET /api/products?t=1778916468347 200 in 633ms
+ GET /api/products?t=1778916468346 200 in 652ms
+ ✓ Compiled in 264ms (661 modules)
+ ✓ Compiled in 0ms (362 modules)
+ ✓ Compiled in 0ms (362 modules)
+ ✓ Compiled in 0ms (362 modules)
+ GET /api/products 200 in 619ms
+ GET /api/products 200 in 184ms
+ ✓ Compiled in 189ms (665 modules)
+ ✓ Compiled in 126ms (301 modules)
+ ✓ Compiled in 184ms (665 modules)
+ ✓ Compiled in 241ms (658 modules)
+ GET /api/products 200 in 401ms
+ GET /api/products 200 in 225ms
+ ✓ Compiled in 314ms (672 modules)
+ ✓ Compiled in 0ms (368 modules)
+ ✓ Compiled in 0ms (368 modules)
+ ✓ Compiled in 0ms (368 modules)
+ GET /api/products 200 in 761ms
+ GET /api/products 200 in 192ms
+ ✓ Compiled in 288ms (672 modules)
+ ✓ Compiled in 236ms (672 modules)
+ ✓ Compiled in 297ms (672 modules)
+ GET /api/products?t=1778916631288 200 in 398ms
+ ✓ Compiled /api/orders in 152ms (370 modules)
+ GET /api/orders?t=1778916631690 200 in 290ms
+ ✓ Compiled /admin in 340ms (692 modules)
+ GET /admin 200 in 440ms
+ GET /api/products?t=1778916636597 200 in 352ms
+ GET /api/products?t=1778916636599 200 in 353ms
+ GET /api/products 200 in 364ms
+ GET /api/orders?t=1778916636952 200 in 95ms
+ GET /api/orders?t=1778916636958 200 in 92ms
+ GET /api/products 200 in 205ms
+ GET /api/products 200 in 168ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 172ms
+ GET /api/products?t=1778916639744 200 in 170ms
+ GET /api/orders?t=1778916639915 200 in 88ms
+ GET /api/products 200 in 166ms
+ GET /api/products 200 in 169ms
+ GET /api/products 200 in 168ms
+ GET /api/products 200 in 170ms
+ GET /admin 200 in 34ms
+ GET /api/products 200 in 380ms
+ GET /api/products?t=1778916706649 200 in 382ms
+ GET /api/products?t=1778916706651 200 in 386ms
+ GET /api/orders?t=1778916707038 200 in 92ms
+ GET /api/orders?t=1778916707033 200 in 103ms
+ GET /api/products 200 in 189ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 181ms
+ GET /api/products?t=1778916712944 200 in 181ms
+ GET /api/orders?t=1778916713127 200 in 89ms
+ GET /api/products 200 in 180ms
+ GET /api/products 200 in 177ms
+ GET /api/products 200 in 196ms
+ GET /api/products 200 in 176ms
+ POST /api/products 200 in 592ms
+ GET / 200 in 26ms
+ GET /api/products 200 in 176ms
+ GET /api/products?t=1778916726521 200 in 181ms
+ GET /api/products?t=1778916726523 200 in 326ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 185ms
+ GET /api/products 200 in 180ms
+ POST /api/products 200 in 1045ms
+ GET / 200 in 27ms
+ GET /api/products 200 in 345ms
+ GET /api/products?t=1778916881290 200 in 635ms
+ GET /api/products?t=1778916881289 200 in 641ms
+ GET /api/products 200 in 374ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 199ms
+ ✓ Compiled in 534ms (704 modules)
+ GET /api/products 200 in 714ms
+ ✓ Compiled in 237ms (704 modules)
+ ✓ Compiled in 222ms (704 modules)
+ GET /api/products?t=1778916898292 200 in 406ms
+ GET /api/products?t=1778916898291 200 in 438ms
+ ✓ Compiled /api/orders in 156ms (387 modules)
+ GET /api/orders?t=1778916898743 200 in 235ms
+ GET /api/orders?t=1778916898711 200 in 286ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 172ms
+ GET /api/products?t=1778916902619 200 in 180ms
+ GET /api/orders?t=1778916902801 200 in 88ms
+ GET /api/products 200 in 173ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 171ms
+ GET /api/products 200 in 171ms
+ POST /api/products 200 in 423ms
+ ✓ Compiled in 387ms (706 modules)
+ GET / 200 in 96ms
+ GET /api/products 200 in 185ms
+ GET /api/products?t=1778916911160 200 in 195ms
+ GET /api/products?t=1778916911161 200 in 352ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 170ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 170ms
+ ✓ Compiled in 401ms (706 modules)
+ GET /api/products 200 in 191ms
+ GET /api/products?t=1778916915439 200 in 200ms
+ GET /api/products?t=1778916915440 200 in 212ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 170ms
+ GET /api/products 200 in 169ms
+ ✓ Compiled in 191ms (706 modules)
+ ✓ Compiled in 1ms (387 modules)
+ ✓ Compiled in 0ms (387 modules)
+ ✓ Compiled in 0ms (387 modules)
+ GET /api/products 200 in 625ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 170ms
+ ✓ Compiled in 248ms (706 modules)
+ GET / 200 in 63ms
+ GET /api/products?t=1778916957125 200 in 360ms
+ GET /api/products?t=1778916957126 200 in 360ms
+ GET /api/products 200 in 384ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 184ms
+ GET /api/products 200 in 187ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 185ms
+ ✓ Compiled in 328ms (704 modules)
+ ✓ Compiled in 0ms (385 modules)
+ ✓ Compiled in 0ms (385 modules)
+ ✓ Compiled in 1ms (385 modules)
+ GET /api/products?t=1778917002919 200 in 906ms
+ ✓ Compiled /api/orders in 105ms (387 modules)
+ GET /api/products?t=1778917002919 200 in 208ms
+ GET /api/orders?t=1778917004045 200 in 96ms
+ GET /api/orders?t=1778917003833 200 in 379ms
+ ✓ Compiled in 230ms (706 modules)
+ ✓ Compiled in 268ms (706 modules)
+ ✓ Compiled in 170ms (706 modules)
+ ✓ Compiled in 239ms (706 modules)
+ GET /api/products 200 in 396ms
+ GET /api/products 200 in 181ms
+ ✓ Compiled in 197ms (706 modules)
+ GET /api/products 200 in 688ms
+ GET /api/products 200 in 185ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 181ms
+ GET /api/products?t=1778921240903 200 in 191ms
+ GET /api/orders?t=1778921241097 200 in 102ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 197ms
+ GET /api/products 200 in 487ms
+ GET /api/products 200 in 194ms
+ GET /api/products 200 in 191ms
+ GET /api/products 200 in 204ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 192ms
+ GET /api/products?t=1778921302724 200 in 349ms
+ GET /api/products 200 in 390ms
+ GET /api/products?t=1778921302724 200 in 185ms
+ GET /api/products 200 in 193ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 176ms
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 697ms (648 modules)
+ ✓ Compiled /api/orders in 98ms (395 modules)
+ ✓ Compiled (397 modules)
+ GET /api/orders 200 in 875ms
+ GET /api/products 200 in 961ms
+ GET /api/orders 200 in 93ms
+ GET /api/products 200 in 185ms
+ GET /api/products 200 in 177ms
+ GET /api/products 200 in 182ms
+ ✓ Compiled in 333ms (724 modules)
+ GET /api/products?t=1778921401478 200 in 389ms
+ GET /api/orders?t=1778921401869 200 in 97ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 180ms
+ GET /api/products 200 in 177ms
+ GET /api/products 200 in 184ms
+ GET /api/products?t=1778921405172 200 in 182ms
+ GET /api/orders?t=1778921405358 200 in 92ms
+ GET /api/products 200 in 184ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 175ms
+ GET /api/products?t=1778921407145 200 in 313ms
+ ✓ Compiled in 382ms (724 modules)
+ GET /api/orders?t=1778921407460 200 in 193ms
+ GET /api/products 200 in 400ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 185ms
+ GET /api/products 200 in 176ms
+ ✓ Compiled in 330ms (724 modules)
+ GET /api/products 200 in 363ms
+ GET /api/products?t=1778921446983 200 in 374ms
+ GET /api/products 200 in 166ms
+ GET /api/products?t=1778921446983 200 in 172ms
+ GET /api/products 200 in 166ms
+ GET /api/products 200 in 168ms
+ GET / 200 in 57ms
+ GET /api/products?t=1778921448646 200 in 177ms
+ GET /api/products 200 in 178ms
+ GET /api/products?t=1778921448647 200 in 333ms
+ GET /api/products 200 in 173ms
+ GET /api/products 200 in 177ms
+ GET /api/products 200 in 165ms
+ GET /api/products 200 in 164ms
+ GET /api/products 200 in 165ms
+ ✓ Compiled in 304ms (648 modules)
+ ✓ Compiled /api/products in 111ms (395 modules)
+ GET /api/products?t=1778921643612 200 in 1129ms
+ ✓ Compiled /api/orders in 62ms (397 modules)
+ GET /api/orders?t=1778921644746 200 in 196ms
+ GET /api/products 200 in 175ms
+ GET /api/products 200 in 247ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 178ms
+ ✓ Compiled in 420ms (648 modules)
+ GET /admin 200 in 63ms
+ ✓ Compiled /api/products in 62ms (395 modules)
+ GET /api/products?t=1778921755729 200 in 483ms
+ GET /api/products 200 in 505ms
+ GET /api/products?t=1778921755730 200 in 505ms
+ ✓ Compiled /api/orders in 97ms (397 modules)
+ GET /api/orders?t=1778921756214 200 in 299ms
+ GET /api/orders?t=1778921756238 200 in 273ms
+ GET /api/products 200 in 361ms
+ GET /api/products 200 in 187ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 184ms
+ GET /admin 200 in 76ms
+ GET /api/products?t=1778921913775 200 in 635ms
+ GET /api/products?t=1778921913774 200 in 671ms
+ GET /api/products 200 in 675ms
+ GET /api/orders?t=1778921914415 200 in 92ms
+ GET /api/orders?t=1778921914447 200 in 99ms
+ GET /api/products 200 in 175ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 180ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 184ms
+ GET /api/products?t=1778921921051 200 in 343ms
+ GET /api/orders?t=1778921921395 200 in 93ms
+ GET /api/products 200 in 177ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 183ms
+ GET /api/products 200 in 176ms
+ GET /api/products?t=1778921925739 200 in 177ms
+ GET /api/orders?t=1778921925917 200 in 94ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 189ms
+ GET /api/products 200 in 183ms
+ GET /api/products 200 in 178ms
+ GET /api/products?t=1778921926821 200 in 177ms
+ GET /api/orders?t=1778921927000 200 in 97ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 180ms
+ GET /api/products?t=1778921940560 200 in 333ms
+ GET /api/orders?t=1778921940899 200 in 88ms
+ GET /api/products 200 in 171ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 184ms
+ GET /api/products 200 in 178ms
+ GET /admin 200 in 47ms
+ GET /api/products 200 in 421ms
+ GET /api/products?t=1778921965246 200 in 419ms
+ GET /api/products?t=1778921965245 200 in 427ms
+ GET /api/orders?t=1778921965670 200 in 106ms
+ GET /api/orders?t=1778921965674 200 in 117ms
+ GET /api/products 200 in 190ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 173ms
+ GET /api/products 200 in 173ms
+ GET /api/products?t=1778921967774 200 in 179ms
+ GET /api/orders?t=1778921967954 200 in 94ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 173ms
+ GET /api/products 200 in 176ms
+ GET /admin 200 in 23ms
+ GET /api/products?t=1778922232185 200 in 731ms
+ GET /api/products 200 in 736ms
+ GET /api/products?t=1778922232186 200 in 741ms
+ GET /api/orders?t=1778922232931 200 in 94ms
+ GET /api/orders?t=1778922232918 200 in 108ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 187ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 173ms
+ GET /api/products?t=1778922234872 200 in 172ms
+ GET /api/orders?t=1778922235046 200 in 90ms
+ GET /api/products 200 in 180ms
+ GET /api/products 200 in 175ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 177ms
+ ✓ Compiled /api/upload in 259ms (399 modules)
+ POST /api/upload 200 in 330ms
+ POST /api/products 200 in 606ms
+ ✓ Compiled in 391ms (648 modules)
+ ✓ Compiled /api/products in 71ms (395 modules)
+ GET /api/products?t=1778922471808 200 in 833ms
+ ✓ Compiled /api/orders in 58ms (397 modules)
+ GET /api/products?t=1778922471808 200 in 364ms
+ GET /api/orders?t=1778922472645 200 in 440ms
+ GET /api/orders?t=1778922473011 200 in 91ms
+ ✓ Compiled in 244ms (724 modules)
+ ✓ Compiled in 224ms (724 modules)
+ ✓ Compiled in 316ms (724 modules)
+ ✓ Compiled in 192ms (724 modules)
+ ✓ Compiled in 298ms (724 modules)
+ GET /api/products?t=1778922507663 200 in 425ms
+ GET /api/products 200 in 432ms
+ GET /api/products?t=1778922507663 200 in 189ms
+ GET /api/products 200 in 190ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 184ms
+ ✓ Compiled in 215ms (724 modules)
+ ✓ Compiled in 228ms (724 modules)
+ ✓ Compiled in 233ms (724 modules)
+ GET /api/products 200 in 390ms
+ GET /api/products 200 in 193ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 172ms
+ GET /api/products?t=1778922540961 200 in 192ms
+ GET /api/orders?t=1778922541155 200 in 92ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 173ms
+ GET /api/products 200 in 172ms
+ GET /api/products?t=1778922544367 200 in 172ms
+ GET /api/orders?t=1778922544541 200 in 90ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 173ms
+ GET /api/products 200 in 168ms
+ GET /api/products 200 in 177ms
+ GET /api/products?t=1778922545839 200 in 178ms
+ GET /api/orders?t=1778922546018 200 in 97ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 192ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 172ms
+ GET /api/products?t=1778922566116 200 in 354ms
+ GET /api/orders?t=1778922566474 200 in 96ms
+ GET /api/products 200 in 187ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 198ms
+ GET /api/products 200 in 178ms
+ POST /api/products 200 in 826ms
+ GET / 200 in 66ms
+ GET /api/products 200 in 357ms
+ GET /api/products?t=1778922624374 200 in 356ms
+ GET /api/products?t=1778922624375 200 in 356ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 180ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 177ms
+ ✓ Compiled in 330ms (648 modules)
+ ✓ Compiled in 314ms (648 modules)
+ ✓ Compiled in 218ms (648 modules)
+ GET / 200 in 62ms
+ ✓ Compiled /api/products in 100ms (395 modules)
+ GET /api/products?t=1778922760081 200 in 697ms
+ GET /api/products 200 in 715ms
+ GET /api/products?t=1778922760082 200 in 727ms
+ GET /api/products 200 in 170ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 169ms
+ GET /api/products 200 in 170ms
+ GET /api/products 200 in 166ms
+ ✓ Compiled in 417ms (646 modules)
+ ✓ Compiled in 165ms (326 modules)
+ ✓ Compiled /api/products in 108ms (394 modules)
+ GET /api/products?t=1778923166244 200 in 778ms
+ ✓ Compiled /api/orders in 166ms (396 modules)
+ GET /api/orders?t=1778923167028 200 in 367ms
+ GET /api/products 200 in 191ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 191ms
+ GET /api/products?t=1778923169416 200 in 190ms
+ GET /api/orders?t=1778923169608 200 in 98ms
+ GET /api/products 200 in 189ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 200ms
+ GET /api/products 200 in 205ms
+ GET /api/products?t=1778923171252 200 in 190ms
+ GET /api/orders?t=1778923171443 200 in 100ms
+ GET /api/products 200 in 187ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 187ms
+ GET /api/products 200 in 212ms
+ GET /api/products 200 in 196ms
+ GET /api/products 200 in 199ms
+ GET /api/products 200 in 197ms
+ GET /api/products 200 in 198ms
+ GET /api/products 200 in 191ms
+ GET /api/products 200 in 190ms
+ ✓ Compiled /cart in 487ms (720 modules)
+ GET /api/products 200 in 205ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 190ms
+ GET /api/products 200 in 185ms
+ GET /api/products 200 in 189ms
+ ✓ Compiled in 475ms (734 modules)
+ ✓ Compiled in 0ms (403 modules)
+ ✓ Compiled in 0ms (403 modules)
+ ✓ Compiled in 1ms (403 modules)
+ GET /api/products?t=1778923198587 200 in 891ms
+ GET /api/products?t=1778923198588 200 in 891ms
+ GET /api/orders?t=1778923199528 200 in 102ms
+ GET /api/orders?t=1778923199523 200 in 120ms
+ ✓ Compiled in 432ms (734 modules)
+ ✓ Compiled in 470ms (734 modules)
+ POST /api/orders 200 in 278ms
+ ✓ Compiled in 532ms (734 modules)
+ ✓ Compiled in 1ms (403 modules)
+ ✓ Compiled in 0ms (403 modules)
+ ✓ Compiled in 1ms (403 modules)
+ ✓ Compiled in 0ms (403 modules)
+ GET /api/products 200 in 352ms
+ GET /api/products?t=1778923218359 200 in 352ms
+ GET /api/products 200 in 187ms
+ GET /api/products?t=1778923218359 200 in 193ms
+ GET /api/products 200 in 183ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 175ms
+ GET /api/products 200 in 180ms
+ GET /api/products?t=1778923222525 200 in 170ms
+ GET /api/orders?t=1778923222696 200 in 89ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 175ms
+ GET /api/products 200 in 170ms
+ GET /api/products 200 in 167ms
+ GET /api/products 200 in 591ms
+ GET /api/products 200 in 223ms
+ GET /api/products 200 in 185ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 398ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 175ms
+ GET /api/products 200 in 180ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 178ms
+ GET /api/products 200 in 177ms
+ POST /api/orders 200 in 264ms
+ GET /api/products?t=1778923333974 200 in 352ms
+ GET /api/orders?t=1778923334329 200 in 100ms
+ GET /api/products 200 in 189ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 185ms
+ GET /api/products?t=1778923335084 200 in 340ms
+ GET /api/orders?t=1778923335426 200 in 98ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 192ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 193ms
+ GET /admin 200 in 109ms
+ GET /api/products 200 in 454ms
+ GET /api/products?t=1778923371998 200 in 453ms
+ GET /api/products?t=1778923371997 200 in 468ms
+ GET /api/orders?t=1778923372460 200 in 108ms
+ GET /api/orders?t=1778923372468 200 in 110ms
+ GET /api/products 200 in 191ms
+ GET /api/products 200 in 184ms
+ GET /api/products 200 in 180ms
+ GET /api/products 200 in 200ms
+ GET /api/products 200 in 179ms
+ GET /api/products?t=1778923375147 200 in 180ms
+ GET /api/orders?t=1778923375330 200 in 100ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 177ms
+ GET /api/products 200 in 179ms
+ ✓ Compiled in 396ms (734 modules)
+ ✓ Compiled in 250ms (734 modules)
+ ✓ Compiled in 258ms (734 modules)
+ GET /admin 200 in 76ms
+ GET /api/products 200 in 607ms
+ GET /api/products 200 in 202ms
+ GET /api/products?t=1778923540310 200 in 367ms
+ GET /api/products 200 in 378ms
+ GET /api/products?t=1778923540310 200 in 182ms
+ GET /api/products 200 in 175ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 177ms
+ ✓ Compiled in 607ms (732 modules)
+ GET /admin 200 in 59ms
+ GET /api/products 200 in 394ms
+ GET /api/products 200 in 188ms
+ ✓ Compiled in 345ms (658 modules)
+ ✓ Compiled in 218ms (658 modules)
+ ✓ Compiled in 248ms (658 modules)
+ ✓ Compiled in 304ms (658 modules)
+ ✓ Compiled /api/products in 208ms (401 modules)
+ GET /api/products?t=1778923734236 200 in 866ms
+ ✓ Compiled /api/orders in 185ms (403 modules)
+ GET /api/products?t=1778923734235 200 in 1068ms
+ GET /api/orders?t=1778923735307 200 in 133ms
+ GET /api/orders?t=1778923735106 200 in 337ms
+ GET /api/products 200 in 192ms
+ GET /api/products 200 in 194ms
+ GET /api/products 200 in 225ms
+ ✓ Compiled in 377ms (734 modules)
+ GET /api/products 200 in 520ms
+ GET /api/products?t=1778923741041 200 in 192ms
+ GET /api/orders?t=1778923741234 200 in 99ms
+ GET /api/products 200 in 192ms
+ GET /api/products 200 in 205ms
+ GET /api/products 200 in 206ms
+ GET /api/products 200 in 187ms
+ GET /admin 200 in 73ms
+ GET /api/products?t=1778923883154 200 in 620ms
+ GET /api/products 200 in 625ms
+ GET /api/products?t=1778923883155 200 in 637ms
+ GET /api/orders?t=1778923883776 200 in 94ms
+ GET /api/orders?t=1778923883795 200 in 92ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 178ms
+ GET /api/products?t=1778923885773 200 in 172ms
+ GET /api/orders?t=1778923885947 200 in 89ms
+ GET /api/products 200 in 171ms
+ GET /api/products 200 in 172ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 176ms
+ GET /api/products?t=1778923889131 200 in 178ms
+ GET /api/orders?t=1778923889311 200 in 93ms
+ GET /api/products 200 in 186ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 181ms
+ GET /api/products 200 in 184ms
+ GET /api/products?t=1778923891608 200 in 181ms
+ GET /api/orders?t=1778923891791 200 in 95ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 179ms
+ GET /api/products 200 in 176ms
+ GET /api/products 200 in 178ms
+ ✓ Compiled in 449ms (734 modules)
+ GET /admin 200 in 51ms
+ GET /api/products 200 in 396ms
+ GET /api/products?t=1778923937270 200 in 400ms
+ GET /api/orders?t=1778923937672 200 in 96ms
+ GET /api/products 200 in 182ms
+ GET /api/products?t=1778923937271 200 in 825ms
+ GET /api/orders?t=1778923938100 200 in 91ms
+ GET /api/products 200 in 208ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 177ms
+ GET /api/products 200 in 191ms
+ GET /api/products?t=1778923940011 200 in 179ms
+ GET /api/orders?t=1778923940192 200 in 101ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 177ms
+ GET /api/products 200 in 174ms
+ GET /api/products 200 in 175ms
+ ✓ Compiled in 364ms (734 modules)
+ ✓ Compiled in 555ms (658 modules)
+ ✓ Compiled in 365ms (658 modules)
+ GET / 200 in 73ms
+ ✓ Compiled /api/products in 77ms (401 modules)
+ GET /api/products?t=1778924141231 200 in 854ms
+ GET /api/products?t=1778924141230 200 in 860ms
+ GET /api/products 200 in 863ms
+ GET /api/products 200 in 190ms
+ GET /api/products 200 in 196ms
+ GET /api/products 200 in 182ms
+ GET /api/products 200 in 183ms
+ GET /api/products 200 in 180ms
+ GET / 200 in 112ms
+ GET /api/products?t=1778924146988 200 in 207ms
+ GET /api/products?t=1778924146989 200 in 352ms
+ GET /api/products 200 in 366ms
+ GET /api/products 200 in 195ms
+ GET /api/products 200 in 191ms
+ GET /api/products 200 in 188ms
+ GET /api/products 200 in 191ms
+ GET /api/products 200 in 191ms
+ GET /api/products?t=1778929587413 200 in 914ms
+ ✓ Compiled /api/orders in 205ms (403 modules)
+ GET /api/orders?t=1778929588334 200 in 395ms
+ GET /api/products 200 in 195ms
+ GET /api/products 200 in 189ms
+ GET /api/products 200 in 191ms
+ GET /api/products 200 in 192ms
+ GET /api/products?t=1778929590410 200 in 185ms
+ GET /api/orders?t=1778929590597 200 in 99ms
+ GET /api/products 200 in 184ms
+ GET /api/products 200 in 196ms
+ GET /api/products 200 in 190ms
+ GET /api/products 200 in 195ms

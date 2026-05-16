@@ -1,0 +1,13 @@
+your url is: https://pokecard-live.loca.lt
+C:\Users\Administrator\AppData\Roaming\Accio\pre-install\fcddc5eb3ea8\node\node_modules\localtunnel\bin\lt.js:81
+    throw err;
+    ^
+
+Error: connection refused: localtunnel.me:30317 (check your firewall settings)
+    at Socket.<anonymous> (C:\Users\Administrator\AppData\Roaming\Accio\pre-install\fcddc5eb3ea8\node\node_modules\localtunnel\lib\TunnelCluster.js:52:11)
+    at Socket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+Node.js v20.12.0
